@@ -1,4 +1,6 @@
-﻿namespace Sample.WPF.Services;
+﻿using Sample.WPF.Messages;
+
+namespace Sample.WPF.Services;
 
 [RegisterService(ImplementationType = typeof(SignalsService), InstanceType = InstanceType.Singleton)]
 public interface ISignalsService

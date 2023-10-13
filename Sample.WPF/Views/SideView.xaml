@@ -9,7 +9,7 @@
       d:DataContext="{d:DesignInstance vm:SideViewModel}"
       Title="SideView">
 
-    <Grid>
+    <Grid>        
         <Rectangle Width="50px" Height="50px" Fill="{Binding ConnectionColor, Mode=TwoWay}" Stroke="Black"/>
     </Grid>
 </Page>
