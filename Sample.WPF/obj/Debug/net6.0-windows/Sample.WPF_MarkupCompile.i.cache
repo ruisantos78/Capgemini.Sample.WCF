@@ -1,0 +1,20 @@
+﻿Sample.WPF
+1.0.0.0
+
+winexe
+C#
+.cs
+C:\Users\Rui Santos\source\repos\Sample.WPF\Sample.WPF\obj\Debug\net6.0-windows\
+Sample.WPF
+none
+false
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+C:\Users\Rui Santos\source\repos\Sample.WPF\Sample.WPF\App.xaml
+3118222242
+
+12213618091
+1971363058432
+Views\HomeView.xaml;Views\MainWindow.xaml;Views\SideView.xaml;
+
+True
+

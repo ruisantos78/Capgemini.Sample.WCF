@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ruisantos/Projects/Sample.WPF/Sample.WPF/Sample.WPF.csproj": {}
+  },
+  "projects": {
+    "/Users/ruisantos/Projects/Sample.WPF/Sample.WPF/Sample.WPF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ruisantos/Projects/Sample.WPF/Sample.WPF/Sample.WPF.csproj",
+        "projectName": "Sample.WPF",
+        "projectPath": "/Users/ruisantos/Projects/Sample.WPF/Sample.WPF/Sample.WPF.csproj",
+        "packagesPath": "/Users/ruisantos/.nuget/packages/",
+        "outputPath": "/Users/ruisantos/Projects/Sample.WPF/Sample.WPF/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ruisantos/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.2.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.11, 7.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
