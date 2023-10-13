@@ -1,19 +1,25 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Messaging;
 using Sample.WPF.Messages;
-using System.Drawing;
+using System;
 using System.Windows.Media;
 
 
 namespace Sample.WPF.ViewModels;
 
 [RegisterService]
-public partial class SideViewModel: ObservableObject
+public sealed partial class SideViewModel: ObservableObject, IDisposable
 {
     [ObservableProperty] SolidColorBrush _connectionColor = new(Colors.Transparent);
 
     public SideViewModel()
     {
         ConnectionMessage.Register(this, OnConnectioMessageReceived);
+    }
+
+    public void Dispose()
+    {
+        WeakReferenceMessenger.Default.UnregisterAll(this);
     }
 
     private void OnConnectioMessageReceived(object recipient, ConnectionMessage message)
