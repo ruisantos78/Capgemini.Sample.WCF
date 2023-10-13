@@ -6,7 +6,8 @@ using Sample.WPF.Services;
 namespace Sample.WPF.ViewModels;
 
 [RegisterService]
-public partial class HomeViewModel: ObservableObject
+[ObservableObject]
+public partial class HomeViewModel: ViewModelBase
 {
     private readonly ISignalsService signalsService;
 

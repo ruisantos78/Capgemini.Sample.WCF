@@ -8,7 +8,8 @@ using System.Windows.Media;
 namespace Sample.WPF.ViewModels;
 
 [RegisterService]
-public sealed partial class SideViewModel: ObservableObject, IDisposable
+[ObservableObject]
+public sealed partial class SideViewModel: ViewModelBase, IDisposable
 {
     [ObservableProperty] SolidColorBrush _connectionColor = new(Colors.Transparent);
 
