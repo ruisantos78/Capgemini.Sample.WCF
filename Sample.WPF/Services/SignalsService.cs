@@ -3,16 +3,16 @@
 [RegisterService(ImplementationType = typeof(SignalsService), InstanceType = InstanceType.Singleton)]
 public interface ISignalsService
 {
-    bool ToogleConnection();
+    void ToogleConnection();
 }
 
 public class SignalsService : ISignalsService
 {
     private bool connected = false;
 
-    public bool ToogleConnection()
+    public void ToogleConnection()
     {
         this.connected = !connected;
-        return connected;
+        ConnectionMessage.Send(connected);;
     }
 }

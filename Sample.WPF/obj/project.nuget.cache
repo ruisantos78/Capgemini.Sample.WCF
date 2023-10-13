@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "+d/vYqJ4Gma8ohxSrglLurVE2Je+yTqb8en+w6Wwks2oG5vCuMTVE5WZPdY8cVluh1EDxYv+7R3VKT0cUYjkTg==",
+  "dgSpecHash": "c6swmO7Do9jRo3VJnv/G5cfmxGI6IPGxgDG0CejcX/LHtUApMJm5yqPxB4eY3i3pYYSYMYZBG8Fgo+dDaKPkvA==",
   "success": true,
-  "projectFilePath": "/Users/ruisantos/Projects/Sample.WPF/Sample.WPF/Sample.WPF.csproj",
+  "projectFilePath": "/workspaces/Capgemini.Sample.WCF/Sample.WPF/Sample.WPF.csproj",
   "expectedPackageFiles": [
-    "/Users/ruisantos/.nuget/packages/communitytoolkit.mvvm/8.2.1/communitytoolkit.mvvm.8.2.1.nupkg.sha512",
-    "/Users/ruisantos/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
-    "/Users/ruisantos/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
-    "/Users/ruisantos/.nuget/packages/microsoft.windowsdesktop.app.ref/7.0.11/microsoft.windowsdesktop.app.ref.7.0.11.nupkg.sha512"
+    "/home/codespace/.nuget/packages/communitytoolkit.mvvm/8.2.1/communitytoolkit.mvvm.8.2.1.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.windowsdesktop.app.ref/7.0.9/microsoft.windowsdesktop.app.ref.7.0.9.nupkg.sha512"
   ],
   "logs": []
 }

@@ -19,7 +19,6 @@ public partial class HomeViewModel: ViewModelBase
     [RelayCommand]
     public void ToggleConnection()
     {
-        var state = this.signalsService.ToogleConnection();
-        ConnectionMessage.Send(state);
+        this.signalsService.ToogleConnection();        
     }
 }

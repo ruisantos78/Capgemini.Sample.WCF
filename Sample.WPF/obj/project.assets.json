@@ -153,25 +153,24 @@
     ]
   },
   "packageFolders": {
-    "/Users/ruisantos/.nuget/packages/": {}
+    "/home/codespace/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ruisantos/Projects/Sample.WPF/Sample.WPF/Sample.WPF.csproj",
+      "projectUniqueName": "/workspaces/Capgemini.Sample.WCF/Sample.WPF/Sample.WPF.csproj",
       "projectName": "Sample.WPF",
-      "projectPath": "/Users/ruisantos/Projects/Sample.WPF/Sample.WPF/Sample.WPF.csproj",
-      "packagesPath": "/Users/ruisantos/.nuget/packages/",
-      "outputPath": "/Users/ruisantos/Projects/Sample.WPF/Sample.WPF/obj/",
+      "projectPath": "/workspaces/Capgemini.Sample.WCF/Sample.WPF/Sample.WPF.csproj",
+      "packagesPath": "/home/codespace/.nuget/packages/",
+      "outputPath": "/workspaces/Capgemini.Sample.WCF/Sample.WPF/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/ruisantos/.nuget/NuGet/NuGet.Config"
+        "/home/codespace/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0-windows"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -213,7 +212,7 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[7.0.11, 7.0.11]"
+            "version": "[7.0.9, 7.0.9]"
           }
         ],
         "frameworkReferences": {
@@ -224,7 +223,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/dotnet/7.0.306/sdk/7.0.306/RuntimeIdentifierGraph.json"
       }
     }
   }
