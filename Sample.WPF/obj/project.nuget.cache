@@ -1,14 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "Y9Ac5mQ+AnaWIiP/vhV1C8dKEOp/NyE++HYnJMJeW+e3v4Gd6JoCuMUFOC26d4sVmxNBsIC762T0wZqLk+V+Ow==",
+  "dgSpecHash": "ZaGkWd2AVpBGAUh86JD6BVHKTrLl6/iuW0sJCJn1rCGj7x8bBhqG4VCci/0MW+6F0G0UCnErpdimsiFSR4sycw==",
   "success": true,
-  "projectFilePath": "/Users/ruisantos/Projects/Sample.WPF/Sample.WPF/Sample.WPF.csproj",
+  "projectFilePath": "C:\\Users\\rusantos\\Repos\\Capgemini.Sample.WCF\\Sample.WPF\\Sample.WPF.csproj",
   "expectedPackageFiles": [
-    "/Users/ruisantos/.nuget/packages/communitytoolkit.mvvm/8.2.1/communitytoolkit.mvvm.8.2.1.nupkg.sha512",
-    "/Users/ruisantos/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
-    "/Users/ruisantos/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
-    "/Users/ruisantos/.nuget/packages/system.windows.interactivity.wpf/2.0.20525/system.windows.interactivity.wpf.2.0.20525.nupkg.sha512",
-    "/Users/ruisantos/.nuget/packages/microsoft.windowsdesktop.app.ref/6.0.22/microsoft.windowsdesktop.app.ref.6.0.22.nupkg.sha512"
+    "C:\\Users\\rusantos\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.1\\communitytoolkit.mvvm.8.2.1.nupkg.sha512",
+    "C:\\Users\\rusantos\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\rusantos\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\rusantos\\.nuget\\packages\\system.windows.interactivity.wpf\\2.0.20525\\system.windows.interactivity.wpf.2.0.20525.nupkg.sha512",
+    "C:\\Users\\rusantos\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.18\\microsoft.netcore.app.ref.6.0.18.nupkg.sha512",
+    "C:\\Users\\rusantos\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.18\\microsoft.windowsdesktop.app.ref.6.0.18.nupkg.sha512",
+    "C:\\Users\\rusantos\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.18\\microsoft.aspnetcore.app.ref.6.0.18.nupkg.sha512",
+    "C:\\Users\\rusantos\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.18\\microsoft.netcore.app.host.win-x64.6.0.18.nupkg.sha512"
   ],
   "logs": [
     {

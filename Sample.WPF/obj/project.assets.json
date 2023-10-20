@@ -188,25 +188,24 @@
     ]
   },
   "packageFolders": {
-    "/Users/ruisantos/.nuget/packages/": {}
+    "C:\\Users\\rusantos\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ruisantos/Projects/Sample.WPF/Sample.WPF/Sample.WPF.csproj",
+      "projectUniqueName": "C:\\Users\\rusantos\\Repos\\Capgemini.Sample.WCF\\Sample.WPF\\Sample.WPF.csproj",
       "projectName": "Sample.WPF",
-      "projectPath": "/Users/ruisantos/Projects/Sample.WPF/Sample.WPF/Sample.WPF.csproj",
-      "packagesPath": "/Users/ruisantos/.nuget/packages/",
-      "outputPath": "/Users/ruisantos/Projects/Sample.WPF/Sample.WPF/obj/",
+      "projectPath": "C:\\Users\\rusantos\\Repos\\Capgemini.Sample.WCF\\Sample.WPF\\Sample.WPF.csproj",
+      "packagesPath": "C:\\Users\\rusantos\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rusantos\\Repos\\Capgemini.Sample.WCF\\Sample.WPF\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/ruisantos/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\rusantos\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0-windows"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -251,8 +250,20 @@
         "warn": true,
         "downloadDependencies": [
           {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.18, 6.0.18]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.18, 6.0.18]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.18, 6.0.18]"
+          },
+          {
             "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.22, 6.0.22]"
+            "version": "[6.0.18, 6.0.18]"
           }
         ],
         "frameworkReferences": {
@@ -263,7 +274,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   },

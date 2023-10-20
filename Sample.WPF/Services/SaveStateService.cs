@@ -5,14 +5,14 @@ using System.ComponentModel;
 using System.IO;
 using System.Text.Json;
 using System.Threading.Tasks;
+using System.Linq;
 
 namespace Sample.WPF.Services;
 
 [RegisterService(ImplementationType = typeof(SaveStateService), InstanceType = InstanceType.Singleton)]
 public interface ISaveStateService
-{
-    Task StoreAsync<TState>(ObservableCollection<TState> values);
-    Task<ObservableCollection<TState>> LoadAsync<TState>();
+{    
+    Task<ObservableCollection<TState>> LoadAsync<TState>() where TState: INotifyPropertyChanged;
 }
 
 internal class SaveStateService : ISaveStateService, IDisposable
@@ -71,19 +71,44 @@ internal class SaveStateService : ISaveStateService, IDisposable
         return new FileInfo(Path.Combine(source.FullName, filename!));
     }
 
-    public Task StoreAsync<TState>(ObservableCollection<TState> values)
-    {
-        cache[typeof(TState).FullName!] = values;
-        return Task.CompletedTask;
-    }
-
-    public async Task<ObservableCollection<TState>> LoadAsync<TState>()
+    public async Task<ObservableCollection<TState>> LoadAsync<TState>() where TState: INotifyPropertyChanged
     {
         var file = GetFile(typeof(TState).FullName!);
         if (!file.Exists)
             return new();
 
         using var stream = file.OpenRead();
-        return await JsonSerializer.DeserializeAsync<ObservableCollection<TState>>(stream) ?? new();        
+        var result = await JsonSerializer.DeserializeAsync<ObservableCollection<TState>>(stream) ?? new();  
+        RegisterCollection(result);
+        return result;      
+    }
+
+    private void RegisterCollection<TState>(ObservableCollection<TState> collection) where TState: INotifyPropertyChanged
+    {
+        SaveStateOnChanged(collection);
+        collection.CollectionChanged += OnCollectionChanged;         
+    }
+
+    private void OnCollectionChanged(object? sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e)
+    { 
+        if (e.Action == System.Collections.Specialized.NotifyCollectionChangedAction.Add)
+        {
+           SaveStateOnChanged(e.NewItems?.OfType<INotifyPropertyChanged>());
+        }                   
+    }
+
+    private void SaveStateOnChanged<TState>(IEnumerable<TState>? elements) where TState: INotifyPropertyChanged
+    {
+        if (elements is null)
+            return;
+
+        foreach (var element in elements)
+            element.PropertyChanged += (sender, args) => StoreAsync(elements);
+    }
+
+    private Task StoreAsync<TState>(IEnumerable<TState> values) where TState: INotifyPropertyChanged
+    {
+        cache[typeof(TState).FullName!] = values;
+        return Task.CompletedTask;
     }
 }
