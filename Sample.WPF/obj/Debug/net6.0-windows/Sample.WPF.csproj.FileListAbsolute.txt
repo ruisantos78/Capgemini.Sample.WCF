@@ -27,6 +27,18 @@ C:/Users/Rui Santos/source/repos/Sample.WPF/Sample.WPF/obj/Debug/net6.0-windows/
 C:/Users/Rui Santos/source/repos/Sample.WPF/Sample.WPF/obj/Debug/net6.0-windows/Sample.WPF.pdb
 C:/Users/Rui Santos/source/repos/Sample.WPF/Sample.WPF/obj/Debug/net6.0-windows/Sample.WPF.genruntimeconfig.cache
 C:/Users/Rui Santos/source/repos/Sample.WPF/Sample.WPF/obj/Debug/net6.0-windows/ref/Sample.WPF.dll
+C:/Users/Rui Santos/source/repos/Sample.WPF/Sample.WPF/bin/Debug/net6.0-windows/Microsoft.Expression.Interactions.dll
+C:/Users/Rui Santos/source/repos/Sample.WPF/Sample.WPF/bin/Debug/net6.0-windows/System.Windows.Interactivity.dll
+/Users/ruisantos/Projects/Sample.WPF/Sample.WPF/obj/Debug/net6.0-windows/Sample.WPF.csproj.AssemblyReference.cache
+/Users/ruisantos/Projects/Sample.WPF/Sample.WPF/obj/Debug/net6.0-windows/Views/HomeView.g.cs
+/Users/ruisantos/Projects/Sample.WPF/Sample.WPF/obj/Debug/net6.0-windows/Views/MainWindow.g.cs
+/Users/ruisantos/Projects/Sample.WPF/Sample.WPF/obj/Debug/net6.0-windows/Views/SideView.g.cs
+/Users/ruisantos/Projects/Sample.WPF/Sample.WPF/obj/Debug/net6.0-windows/App.g.cs
+/Users/ruisantos/Projects/Sample.WPF/Sample.WPF/obj/Debug/net6.0-windows/Sample.WPF_MarkupCompile.cache
+/Users/ruisantos/Projects/Sample.WPF/Sample.WPF/obj/Debug/net6.0-windows/Sample.WPF_MarkupCompile.lref
+/Users/ruisantos/Projects/Sample.WPF/Sample.WPF/obj/Debug/net6.0-windows/Sample.WPF.dll
+/Users/ruisantos/Projects/Sample.WPF/Sample.WPF/obj/Debug/net6.0-windows/refint/Sample.WPF.dll
+/Users/ruisantos/Projects/Sample.WPF/Sample.WPF/obj/Debug/net6.0-windows/Sample.WPF.pdb
 /Users/ruisantos/Projects/Sample.WPF/Sample.WPF/bin/Debug/net6.0-windows/Sample.WPF
 /Users/ruisantos/Projects/Sample.WPF/Sample.WPF/bin/Debug/net6.0-windows/Sample.WPF.deps.json
 /Users/ruisantos/Projects/Sample.WPF/Sample.WPF/bin/Debug/net6.0-windows/Sample.WPF.runtimeconfig.json
@@ -35,13 +47,8 @@ C:/Users/Rui Santos/source/repos/Sample.WPF/Sample.WPF/obj/Debug/net6.0-windows/
 /Users/ruisantos/Projects/Sample.WPF/Sample.WPF/bin/Debug/net6.0-windows/CommunityToolkit.Mvvm.dll
 /Users/ruisantos/Projects/Sample.WPF/Sample.WPF/bin/Debug/net6.0-windows/Microsoft.Extensions.DependencyInjection.dll
 /Users/ruisantos/Projects/Sample.WPF/Sample.WPF/bin/Debug/net6.0-windows/Microsoft.Extensions.DependencyInjection.Abstractions.dll
-/Users/ruisantos/Projects/Sample.WPF/Sample.WPF/obj/Debug/net6.0-windows/Sample.WPF.csproj.AssemblyReference.cache
-/Users/ruisantos/Projects/Sample.WPF/Sample.WPF/obj/Debug/net6.0-windows/Views/HomeView.g.cs
-/Users/ruisantos/Projects/Sample.WPF/Sample.WPF/obj/Debug/net6.0-windows/Views/MainWindow.g.cs
-/Users/ruisantos/Projects/Sample.WPF/Sample.WPF/obj/Debug/net6.0-windows/Views/SideView.g.cs
-/Users/ruisantos/Projects/Sample.WPF/Sample.WPF/obj/Debug/net6.0-windows/App.g.cs
-/Users/ruisantos/Projects/Sample.WPF/Sample.WPF/obj/Debug/net6.0-windows/Sample.WPF_MarkupCompile.cache
-/Users/ruisantos/Projects/Sample.WPF/Sample.WPF/obj/Debug/net6.0-windows/Sample.WPF_MarkupCompile.lref
+/Users/ruisantos/Projects/Sample.WPF/Sample.WPF/bin/Debug/net6.0-windows/Microsoft.Expression.Interactions.dll
+/Users/ruisantos/Projects/Sample.WPF/Sample.WPF/bin/Debug/net6.0-windows/System.Windows.Interactivity.dll
 /Users/ruisantos/Projects/Sample.WPF/Sample.WPF/obj/Debug/net6.0-windows/Views/HomeView.baml
 /Users/ruisantos/Projects/Sample.WPF/Sample.WPF/obj/Debug/net6.0-windows/Views/MainWindow.baml
 /Users/ruisantos/Projects/Sample.WPF/Sample.WPF/obj/Debug/net6.0-windows/Views/SideView.baml
@@ -51,8 +58,5 @@ C:/Users/Rui Santos/source/repos/Sample.WPF/Sample.WPF/obj/Debug/net6.0-windows/
 /Users/ruisantos/Projects/Sample.WPF/Sample.WPF/obj/Debug/net6.0-windows/Sample.WPF.AssemblyInfo.cs
 /Users/ruisantos/Projects/Sample.WPF/Sample.WPF/obj/Debug/net6.0-windows/Sample.WPF.csproj.CoreCompileInputs.cache
 /Users/ruisantos/Projects/Sample.WPF/Sample.WPF/obj/Debug/net6.0-windows/Sample.WPF.csproj.CopyComplete
-/Users/ruisantos/Projects/Sample.WPF/Sample.WPF/obj/Debug/net6.0-windows/Sample.WPF.dll
-/Users/ruisantos/Projects/Sample.WPF/Sample.WPF/obj/Debug/net6.0-windows/refint/Sample.WPF.dll
-/Users/ruisantos/Projects/Sample.WPF/Sample.WPF/obj/Debug/net6.0-windows/Sample.WPF.pdb
 /Users/ruisantos/Projects/Sample.WPF/Sample.WPF/obj/Debug/net6.0-windows/Sample.WPF.genruntimeconfig.cache
 /Users/ruisantos/Projects/Sample.WPF/Sample.WPF/obj/Debug/net6.0-windows/ref/Sample.WPF.dll

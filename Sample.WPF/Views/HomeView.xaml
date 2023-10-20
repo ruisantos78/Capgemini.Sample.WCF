@@ -3,13 +3,29 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
       xmlns:vm="clr-namespace:Sample.WPF.ViewModels"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800" 
       d:DataContext="{d:DesignInstance vm:HomeViewModel}"
       Title="HomeView">
-
+    
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="Loaded">
+            <i:InvokeCommandAction Command="{Binding InitializeCommand}"/>
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+    
     <Grid>
-        <Button Command="{Binding ToggleConnectionCommand}"/>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        
+        <Button Command="{Binding ToggleConnectionCommand}" VerticalAlignment="Top" HorizontalAlignment="Center" Content="Send Signal"/>
+
+        <DataGrid Grid.Row="2" ItemsSource="{Binding Registros}">
+            
+        </DataGrid>
     </Grid>
 </Page>

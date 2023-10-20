@@ -8,8 +8,7 @@ using System.Windows.Media;
 namespace Sample.WPF.ViewModels;
 
 [RegisterService]
-[ObservableObject]
-public sealed partial class SideViewModel: ViewModelBase, IDisposable
+public sealed partial class SideViewModel: ObservableObject, IDisposable
 {
     [ObservableProperty] SolidColorBrush _connectionColor = new(Colors.Transparent);
 
@@ -20,11 +19,13 @@ public sealed partial class SideViewModel: ViewModelBase, IDisposable
 
     public void Dispose()
     {
-        WeakReferenceMessenger.Default.UnregisterAll(this);
+        WeakReferenceMessenger.Default.UnregisterAll(this);        
     }
 
     private void OnConnectioMessageReceived(object recipient, ConnectionMessage message)
     {
         this.ConnectionColor = new(message.Value ? Colors.Green : Colors.Red);
     }
+
+    
 }
