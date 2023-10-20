@@ -29,6 +29,7 @@ public sealed partial class HomeViewModel : ObservableObject
     [RelayCommand]
     public async Task InitializeAsync()
     {
+        
         this.Registros = await saveStateService.LoadAsync<RegistroModel>();        
     }
 

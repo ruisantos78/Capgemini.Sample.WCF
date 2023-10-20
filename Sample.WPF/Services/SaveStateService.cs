@@ -15,6 +15,7 @@ public interface ISaveStateService
     Task<ObservableCollection<TState>> LoadAsync<TState>() where TState: INotifyPropertyChanged;
 }
 
+
 internal class SaveStateService : ISaveStateService, IDisposable
 {
     private readonly DirectoryInfo source = new(Path.Combine(Environment.CurrentDirectory, "States"));
